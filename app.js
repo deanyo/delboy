@@ -174,6 +174,7 @@ function renderDrinks(filter, search) {
           ${isCand ? '<span class="badge unconfirmed">unconfirmed</span>' : ''}
           ${fmtEpisodes(d)}
           ${d.ordered_by && d.ordered_by !== 'Unconfirmed' ? `<span class="badge">${d.ordered_by}</span>` : ''}
+          ${d.script_variant ? '<span class="badge source-badge">broadcast differs</span>' : ''}
         </div>
         <div class="drink-notes">${d.notes}</div>
         ${d.recipe ? `<div class="drink-recipe hidden"><div class="recipe-title">recipe</div>${d.recipe.map(r => `<div class="recipe-step">${r}</div>`).join('')}</div>` : ''}

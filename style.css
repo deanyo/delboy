@@ -209,6 +209,8 @@ body::before {
 
 .badge.unconfirmed { color: var(--warn); border-color: var(--warn); }
 
+.badge.source-badge { color: var(--danger); border-color: var(--danger); }
+
 .drink-card.community { opacity: 0.7; border-style: dashed; }
 .drink-card.community:hover { opacity: 1; }
 
