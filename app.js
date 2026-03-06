@@ -184,7 +184,10 @@ function renderDrinks(filter, search) {
     card.style.cursor = 'pointer';
     card.addEventListener('click', () => {
       const recipe = card.querySelector('.drink-recipe');
-      if (recipe) recipe.classList.toggle('hidden');
+      if (!recipe) return;
+      const wasHidden = recipe.classList.contains('hidden');
+      grid.querySelectorAll('.drink-recipe').forEach(r => r.classList.add('hidden'));
+      if (wasHidden) recipe.classList.remove('hidden');
     });
   });
 
