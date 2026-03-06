@@ -191,6 +191,13 @@ function renderDrinks(filter, search) {
     });
   });
 
+  // Auto-show recipe if filtered to a single drink
+  const cards = grid.querySelectorAll('.drink-card');
+  if (cards.length === 1) {
+    const recipe = cards[0].querySelector('.drink-recipe');
+    if (recipe) recipe.classList.remove('hidden');
+  }
+
   document.getElementById('drink-count').textContent =
     `${list.length} drink${list.length !== 1 ? 's' : ''}`;
 }
