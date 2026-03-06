@@ -260,6 +260,41 @@ body::before {
 .about-link { color: var(--accent); text-decoration: none; }
 .about-link:hover { text-decoration: underline; }
 
+/* Timeline */
+#timeline { max-width: 640px; margin: 0 auto; position: relative; padding-left: 40px; }
+#timeline::before {
+  content: ''; position: absolute; left: 18px; top: 0; bottom: 0;
+  width: 2px; background: var(--line);
+}
+
+.tl-year { position: relative; margin-bottom: 28px; }
+
+.tl-marker {
+  position: absolute; left: -30px; top: 4px;
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid var(--line); background: var(--bg-1);
+}
+.tl-marker.early { border-color: var(--accent); background: var(--accent); }
+.tl-marker.mid { border-color: var(--accent-2); background: var(--accent-2); }
+.tl-marker.late { border-color: var(--accent-3); background: var(--accent-3); }
+.tl-marker.final { border-color: var(--warn); background: var(--warn); }
+
+.tl-label {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px; font-weight: 600; color: var(--ink); margin-bottom: 8px;
+}
+
+.tl-drinks { display: flex; flex-direction: column; gap: 6px; }
+
+.tl-drink {
+  padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--bg-2); display: flex; justify-content: space-between;
+  align-items: center; gap: 8px;
+}
+
+.tl-name { font-size: 13px; color: var(--accent); font-weight: 600; text-transform: lowercase; }
+.tl-ep { font-size: 11px; color: var(--muted); text-align: right; }
+
 /* Generator */
 .generator-container {
   display: flex; flex-direction: column; align-items: center; gap: 24px; margin-bottom: 32px;

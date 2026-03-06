@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1621">
+  <meta name="description" content="The definitive list of every ridiculous drink Del Boy ordered in Only Fools and Horses. 45 confirmed drinks verified against scripts and DVD subtitles.">
+  <title>del boy's drinks - timeline</title>
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'><rect width='256' height='256' fill='%231a1621'/><text x='128' y='155' text-anchor='middle' font-family='JetBrains%20Mono,monospace' font-size='96' font-weight='600' fill='%23b3f4f3'>🍸</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://dnyo.co.uk/delboy/timeline.html">
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <h1>del boy's drinks</h1>
+      <p class="subtitle">22 years of questionable taste</p>
+      <nav class="nav-tabs">
+        <a href="index.html" class="nav-btn">📋 list</a>
+        <a href="wheel.html" class="nav-btn">🎰 spin</a>
+        <a href="generator.html" class="nav-btn">🧪 generator</a>
+        <a href="timeline.html" class="nav-btn active">📅 timeline</a>
+        <a href="about.html" class="nav-btn">📖 about</a>
+        <a href="api.json" class="nav-btn">🔌 api</a>
+      </nav>
+    </header>
+
+    <div id="timeline"></div>
+
+    <footer class="footer">
+      <a href="https://github.com/deanyo/delboy" target="_blank">src</a> · bonnet de douche
+    </footer>
+  </div>
+
+  <script>
+    const yearMap = {
+      'S01': 1981, 'S02': 1982, 'S03': 1983, 'S04': 1985, 'S05': 1986,
+      'S06': 1989, 'S07': 1990, 'S08': 1996, 'S09': 2001
+    };
+    const specialYears = {
+      'Christmas Crackers': 1981, 'Diamonds Are for Heather': 1982,
+      'Thicker than Water': 1983, 'To Hull and Back': 1985,
+      'A Royal Flush': 1986, "The Frog's Legacy": 1987, 'Dates': 1988,
+      "The Jolly Boys' Outing": 1989, 'Rodney Come Home': 1990,
+      'Miami Twice': 1991, "Mother Nature's Son": 1992,
+      'Fatal Extraction': 1993, 'Heroes and Villains': 1996,
+      'Modern Men': 1996, 'Time on Our Hands': 1996,
+      'If They Could See Us Now': 2001, 'Strangers on the Shore': 2002,
+      'Sleepless in Peckham': 2003
+    };
+
+    function getYear(ep) {
+      if (ep.ref && ep.ref !== 'SPECIAL') return yearMap[ep.ref.slice(0, 3)] || null;
+      return specialYears[ep.title] || null;
+    }
+
+    fetch('drinks.json').then(r => r.json()).then(data => {
+      const byYear = {};
+      for (const d of data.confirmed) {
+        const years = new Set();
+        for (const ep of d.episodes || []) {
+          const y = getYear(ep);
+          if (y) years.add(y);
+        }
+        for (const y of years) {
+          if (!byYear[y]) byYear[y] = [];
+          byYear[y].push(d);
+        }
+      }
+
+      const sortedYears = Object.keys(byYear).map(Number).sort();
+      const timeline = document.getElementById('timeline');
+
+      timeline.innerHTML = sortedYears.map(year => {
+        const drinks = byYear[year];
+        const era = year <= 1983 ? 'early' : year <= 1989 ? 'mid' : year <= 1996 ? 'late' : 'final';
+        return `
+          <div class="tl-year">
+            <div class="tl-marker ${era}"></div>
+            <div class="tl-label">${year}</div>
+            <div class="tl-drinks">
+              ${drinks.map(d => {
+                const ep = d.episodes.find(e => getYear(e) === year);
+                return `<div class="tl-drink">
+                  <span class="tl-name">${d.drink}</span>
+                  <span class="tl-ep">${ep ? ep.title : ''}</span>
+                </div>`;
+              }).join('')}
+            </div>
+          </div>`;
+      }).join('');
+    });
+  </script>
+  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "0f776adfddff4d4aa70d19993c72329b"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
