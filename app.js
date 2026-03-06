@@ -176,8 +176,17 @@ function renderDrinks(filter, search) {
           ${d.ordered_by && d.ordered_by !== 'Unconfirmed' ? `<span class="badge">${d.ordered_by}</span>` : ''}
         </div>
         <div class="drink-notes">${d.notes}</div>
+        ${d.recipe ? `<div class="drink-recipe hidden"><div class="recipe-title">recipe</div>${d.recipe.map(r => `<div class="recipe-step">${r}</div>`).join('')}</div>` : ''}
       </div>`;
   }).join('');
+
+  grid.querySelectorAll('.drink-card').forEach(card => {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', () => {
+      const recipe = card.querySelector('.drink-recipe');
+      if (recipe) recipe.classList.toggle('hidden');
+    });
+  });
 
   document.getElementById('drink-count').textContent =
     `${list.length} drink${list.length !== 1 ? 's' : ''}`;

@@ -20,7 +20,18 @@
       ],
       "notes": "The full recipe: tequila, coconut rum, Crème de Menthe, a smidgin of Campari, Angostura bitters, topped with grapefruit juice. Cost £7.",
       "show_on_wheel": true,
-      "type": "del_invention"
+      "type": "del_invention",
+      "recipe": [
+        "glass: hurricane glass",
+        "25ml tequila",
+        "25ml coconut rum",
+        "15ml crème de menthe",
+        "10ml Campari",
+        "dash of Angostura bitters",
+        "top with grapefruit juice",
+        "serve with umbrella",
+        "garnish: cocktail umbrella, slice of grapefruit"
+      ]
     },
     {
       "id": "tia-maria-and-lucozade",
@@ -41,7 +52,12 @@
       ],
       "notes": "One of the signature Del drink gags. Appears in both the 1985 special and the 2003 finale.",
       "show_on_wheel": true,
-      "type": "del_invention"
+      "type": "del_invention",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Tia Maria",
+        "top with Lucozade Original"
+      ]
     },
     {
       "id": "tequila-sunset",
@@ -56,7 +72,14 @@
       ],
       "notes": "Del's homemade cocktail - actually made with gin because he ran out of tequila.",
       "show_on_wheel": true,
-      "type": "del_invention"
+      "type": "del_invention",
+      "recipe": [
+        "glass: wine glass",
+        "50ml gin (not tequila — Del ran out)",
+        "dash of grenadine",
+        "top with orange juice",
+        "garnish: slice of orange"
+      ]
     },
     {
       "id": "harvey-wallbanger",
@@ -72,7 +95,14 @@
       ],
       "notes": "DVD subtitles: 'We've got a Harvey Wall Banger for me, that's a cognac for Boycie, vodka and lime for Marlene, Cubre Libre for Denzil...' Script says Singapore Sling but the broadcast has Harvey Wallbanger.",
       "script_variant": "Singapore Sling",
-      "show_on_wheel": true
+      "show_on_wheel": true,
+      "recipe": [
+        "glass: highball glass",
+        "25ml vodka",
+        "15ml Galliano",
+        "top with orange juice",
+        "garnish: slice of orange, maraschino cherry"
+      ]
     },
     {
       "id": "baileys-and-cherryade",
@@ -88,7 +118,12 @@
       "notes": "Del orders at the Nag's Head. Script says Manhattan but the broadcast has Baileys and Cherryade - David Jason ad-libbed the drink order.",
       "show_on_wheel": true,
       "type": "del_invention",
-      "script_variant": "Manhattan"
+      "script_variant": "Manhattan",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Baileys",
+        "top with cherryade"
+      ]
     },
     {
       "id": "pina-colada",
@@ -129,7 +164,15 @@
       ],
       "notes": "Del's most frequently ordered drink across the entire series.",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: hurricane glass",
+        "50ml white rum",
+        "25ml coconut cream",
+        "100ml pineapple juice",
+        "blend with ice",
+        "garnish: pineapple wedge, cocktail umbrella"
+      ]
     },
     {
       "id": "pina-colada-alka-seltzer",
@@ -144,7 +187,16 @@
       ],
       "notes": "After a heavy night: 'Juan. Can I have a pina colada with ice and Alka Seltzer?'",
       "show_on_wheel": true,
-      "type": "del_invention"
+      "type": "del_invention",
+      "recipe": [
+        "glass: hurricane glass",
+        "50ml white rum",
+        "25ml coconut cream",
+        "100ml pineapple juice",
+        "ice",
+        "1 Alka-Seltzer tablet",
+        "garnish: pineapple wedge, fizzing tablet"
+      ]
     },
     {
       "id": "malibu-and-cherryade",
@@ -159,7 +211,12 @@
       ],
       "notes": "'a Malibu and cherryade for moi, and one for yourself.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Malibu",
+        "top with cherryade"
+      ]
     },
     {
       "id": "campari-and-diet-coke",
@@ -174,7 +231,13 @@
       ],
       "notes": "Del's usual: 'Yeah, Campari and diet coke please!'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: tumbler",
+        "50ml Campari",
+        "top with Diet Coke",
+        "garnish: slice of orange"
+      ]
     },
     {
       "id": "singapore-sling",
@@ -200,7 +263,17 @@
       ],
       "notes": "One of Del's recurring sophisticated orders.",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: hurricane glass",
+        "25ml gin",
+        "15ml cherry brandy",
+        "10ml Cointreau",
+        "10ml Bénédictine",
+        "dash of grenadine",
+        "top with pineapple juice and soda",
+        "garnish: maraschino cherry, pineapple wedge"
+      ]
     },
     {
       "id": "manhattan",
@@ -221,7 +294,15 @@
       ],
       "notes": "Ordered in two separate episodes.",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: coupe glass",
+        "50ml bourbon",
+        "25ml sweet vermouth",
+        "dash of Angostura bitters",
+        "maraschino cherry",
+        "garnish: maraschino cherry"
+      ]
     },
     {
       "id": "beaujolais-nouveau",
@@ -236,7 +317,12 @@
       ],
       "notes": "Del orders 'a bottle of Beaujolais Nouveau... a '79' - not realising Nouveau means this year's vintage.",
       "show_on_wheel": true,
-      "type": "wine"
+      "type": "wine",
+      "recipe": [
+        "glass: wine glass",
+        "one bottle of Beaujolais Nouveau",
+        "not a '79 — Nouveau means this year's"
+      ]
     },
     {
       "id": "spritzer",
@@ -251,7 +337,13 @@
       ],
       "notes": "Del's yuppie phase: 'I never liked Spitzers before, but now I'm right into 'em.' Scene of the famous bar flap fall.",
       "show_on_wheel": true,
-      "type": "wine"
+      "type": "wine",
+      "recipe": [
+        "glass: wine glass",
+        "125ml white wine",
+        "top with sparkling mineral water",
+        "Del calls it a 'Spitzer'"
+      ]
     },
     {
       "id": "remy-martin-and-cream-soda",
@@ -266,7 +358,13 @@
       ],
       "notes": "'Oi John. Giss a Remi Martin with cream soda and lots of ice, and 'arf of lager.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Rémy Martin",
+        "top with cream soda",
+        "lots of ice"
+      ]
     },
     {
       "id": "bacardi-and-russian",
@@ -281,7 +379,12 @@
       ],
       "notes": "Barmaid lists Del's recent drinks: 'Tuesday it was a Bacardi and Russian.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: tumbler",
+        "50ml Bacardi",
+        "top with Stolichnaya... or just any mixer Del had lying around"
+      ]
     },
     {
       "id": "grand-marnier-and-orange",
@@ -296,7 +399,12 @@
       ],
       "notes": "'last week it was Grand Marnier and Orange.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: tumbler",
+        "50ml Grand Marnier",
+        "top with orange juice"
+      ]
     },
     {
       "id": "dubonnet-and-coke",
@@ -311,7 +419,12 @@
       ],
       "notes": "'the week before that was Dubonnet and Coke.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: tumbler",
+        "50ml Dubonnet",
+        "top with Coca-Cola"
+      ]
     },
     {
       "id": "brandy-and-andrews",
@@ -326,7 +439,13 @@
       ],
       "notes": "'Del now stirs a spoonful of Andrews into his brandy.' Peak Del - medicating and drinking at the same time.",
       "show_on_wheel": true,
-      "type": "remedy"
+      "type": "remedy",
+      "recipe": [
+        "glass: brandy snifter",
+        "50ml brandy",
+        "1 spoonful of Andrews Liver Salts",
+        "stir while questioning your life choices"
+      ]
     },
     {
       "id": "irish-coffee",
@@ -341,7 +460,16 @@
       ],
       "notes": "'Del had a mutton Madras and four Irish coffees.' Four of them. Classic Del.",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: irish coffee glass",
+        "50ml Irish whiskey",
+        "hot coffee",
+        "15ml sugar syrup",
+        "float double cream on top",
+        "order four of them",
+        "garnish: float of double cream"
+      ]
     },
     {
       "id": "rum-and-black",
@@ -362,7 +490,13 @@
       ],
       "notes": "Albert's drink - famously mispronounced.",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: tumbler",
+        "50ml dark rum",
+        "25ml blackcurrant cordial",
+        "try not to order it as 'bum and rack'"
+      ]
     },
     {
       "id": "cuba-libre",
@@ -383,7 +517,15 @@
       ],
       "notes": "Del pronounces it 'Cubre Libre'.",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: highball glass",
+        "50ml white rum",
+        "top with Coca-Cola",
+        "squeeze of lime",
+        "Del says 'Cubre Libre'",
+        "garnish: wedge of lime"
+      ]
     },
     {
       "id": "armagnac",
@@ -398,7 +540,13 @@
       ],
       "notes": "Pam offers Armagnac. Del: 'Yeah, that'll do if you're out of brandy.' - not realising Armagnac IS brandy.",
       "show_on_wheel": true,
-      "type": "digestif"
+      "type": "digestif",
+      "recipe": [
+        "glass: brandy snifter",
+        "50ml Armagnac",
+        "serve neat",
+        "accept it when you're out of brandy"
+      ]
     },
     {
       "id": "vin-ordinaire",
@@ -413,7 +561,11 @@
       ],
       "notes": "Del brags: 'I said get down that cellar and sort me out a bottle of Vin Ordinaire!' - thinking it means something posh.",
       "show_on_wheel": true,
-      "type": "wine"
+      "type": "wine",
+      "recipe": [
+        "one bottle of table wine",
+        "Del thinks this means something posh"
+      ]
     },
     {
       "id": "peach-daiquiri",
@@ -428,7 +580,16 @@
       ],
       "notes": "'Give us a peach daiquiri and a chipolata sandwich.'",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: coupe glass",
+        "50ml white rum",
+        "25ml peach schnapps",
+        "25ml lime juice",
+        "blend with ice",
+        "serve with a chipolata sandwich",
+        "garnish: peach slice"
+      ]
     },
     {
       "id": "banana-daiquiri",
@@ -443,7 +604,16 @@
       ],
       "notes": "'giss a banana daiquiri for us moi and Australian lager for Jumbo.' Mike: 'I only sell British lager, Del.'",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: coupe glass",
+        "50ml white rum",
+        "25ml banana liqueur",
+        "half a banana",
+        "25ml lime juice",
+        "blend with ice",
+        "garnish: banana slice"
+      ]
     },
     {
       "id": "half-a-lager",
@@ -458,7 +628,11 @@
       ],
       "notes": "Rodney's order after Del's elaborate Caribbean Stallion. The waiter mocks him: 'Half a lager... Reg Varney drank one of them in Holiday on the Buses!' - comparing Rodney to a naff 70s sitcom character.",
       "show_on_wheel": true,
-      "type": "beer"
+      "type": "beer",
+      "recipe": [
+        "half a pint of lager",
+        "accept mockery from the waiter"
+      ]
     },
     {
       "id": "non-alcoholic-lager-top",
@@ -479,7 +653,12 @@
         }
       ],
       "notes": "Del's go-to insult order for Rodney. Ordered at least twice at the Nag's Head while Del gets something exotic.",
-      "show_on_wheel": true
+      "show_on_wheel": true,
+      "recipe": [
+        "half a pint of non-alcoholic lager",
+        "dash of lemonade",
+        "order for Rodney as an insult"
+      ]
     },
     {
       "id": "blackcurrant-and-pernod",
@@ -494,7 +673,13 @@
       ],
       "notes": "Ordered at the Nag's Head.",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Pernod",
+        "25ml blackcurrant cordial",
+        "top with lemonade"
+      ]
     },
     {
       "id": "chivas-regal-and-coke",
@@ -510,7 +695,13 @@
       ],
       "notes": "Del orders defiantly: 'a large chivas Regal with coke!' Rodney orders Southern Comfort but Del overrides: 'That's 'alf a lager for Rodney.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: tumbler",
+        "50ml Chivas Regal",
+        "top with Coca-Cola",
+        "order defiantly"
+      ]
     },
     {
       "id": "tia-maria-and-pineapple-juice",
@@ -525,7 +716,12 @@
       ],
       "notes": "'Giss a Tia Maria and a pineapple juice and, er, 'alf a lager for lover boy.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Tia Maria",
+        "top with pineapple juice"
+      ]
     },
     {
       "id": "rum-and-pep",
@@ -540,7 +736,12 @@
       ],
       "notes": "Grandad recalls his mum: 'with her rum and pep in one hand, 20 Senior Service in the other.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "50ml dark rum",
+        "top with Pepsi",
+        "hold 20 Senior Service in the other hand"
+      ]
     },
     {
       "id": "drambuie-lime-soda",
@@ -555,7 +756,17 @@
       ],
       "notes": "Elaborate garnish-heavy order. Barmaid gives him two halves of lager instead.",
       "show_on_wheel": true,
-      "type": "del_invention"
+      "type": "del_invention",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Drambuie",
+        "squeeze of lime",
+        "top with soda water",
+        "lots of ice",
+        "slice of lemon",
+        "a little cherry on top",
+        "garnish: slice of lemon, cherry on top"
+      ]
     },
     {
       "id": "dubonnet",
@@ -570,7 +781,14 @@
       ],
       "notes": "Del tries to impress in Spain: 'Garçon, dos Dubonnet pore favore. Danke schon.'",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: tumbler",
+        "50ml Dubonnet",
+        "serve over ice",
+        "order in mangled French-Spanish-German",
+        "garnish: slice of orange"
+      ]
     },
     {
       "id": "brandy-and-cream-soda",
@@ -585,7 +803,13 @@
       ],
       "notes": "Wallace serves Del brandy but they've run out of cream soda.",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml brandy",
+        "top with cream soda",
+        "if available"
+      ]
     },
     {
       "id": "port-and-lemon",
@@ -606,7 +830,12 @@
       ],
       "notes": "Offered by Del as a mixer option and ordered by Aunt Reen.",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: tumbler",
+        "50ml port",
+        "top with lemonade"
+      ]
     },
     {
       "id": "grand-marnier-and-grapefruit",
@@ -621,7 +850,12 @@
       ],
       "notes": "'Yeah, Grand Marnier and grapefruit.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: tumbler",
+        "50ml Grand Marnier",
+        "top with grapefruit juice"
+      ]
     },
     {
       "id": "malibu-and-tonic-with-lime",
@@ -636,7 +870,14 @@
       ],
       "notes": "'I'll have a Malibu and tonic with some lime and 'alf of lager, please darling.'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Malibu",
+        "top with tonic water",
+        "squeeze of lime",
+        "garnish: wedge of lime"
+      ]
     },
     {
       "id": "courvoisier",
@@ -651,7 +892,13 @@
       ],
       "notes": "Del warns Albert: 'You'll feel even worse if I catch you at my Courvoisier again.'",
       "show_on_wheel": true,
-      "type": "digestif"
+      "type": "digestif",
+      "recipe": [
+        "glass: brandy snifter",
+        "50ml Courvoisier",
+        "serve neat",
+        "hide it from Albert"
+      ]
     },
     {
       "id": "benedictine-and-lemonade",
@@ -666,7 +913,13 @@
       ],
       "notes": "June's drink of choice - she totters in with a glass of it.",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Bénédictine",
+        "top with lemonade",
+        "totter in on high heels"
+      ]
     },
     {
       "id": "bacardi-and-coke",
@@ -681,7 +934,13 @@
       ],
       "notes": "'Can I have a large Bacardi and coke, please?'",
       "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
+      "type": "spirit_and_soft_drink",
+      "recipe": [
+        "glass: highball glass",
+        "50ml Bacardi",
+        "top with Coca-Cola",
+        "garnish: wedge of lime"
+      ]
     },
     {
       "id": "malibu-reef",
@@ -696,7 +955,14 @@
       ],
       "notes": "Danny spots Del's abandoned drink: 'A Castella, a Malibu reef. Are you sure he's not around?'",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: hurricane glass",
+        "50ml Malibu",
+        "25ml blue curaçao",
+        "top with pineapple juice",
+        "garnish: pineapple wedge"
+      ]
     },
     {
       "id": "large-snowball",
@@ -711,7 +977,15 @@
       ],
       "notes": "'How about a large snowball? Mike, a large snowball for Dora, please.'",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: champagne flute",
+        "50ml Advocaat",
+        "top with lemonade",
+        "maraschino cherry",
+        "make it a large one for Dora",
+        "garnish: maraschino cherry"
+      ]
     },
     {
       "id": "romanian-riesling",
@@ -726,7 +1000,12 @@
       ],
       "notes": "Del's dodgy wine sold to the Nag's Head. Mike serves the remainder of the 'Romanian Rheisling.'",
       "show_on_wheel": true,
-      "type": "wine"
+      "type": "wine",
+      "recipe": [
+        "one bottle of Romanian Riesling",
+        "sell to the Nag's Head",
+        "deny all knowledge"
+      ]
     },
     {
       "id": "tequila-slammer",
@@ -741,7 +1020,14 @@
       ],
       "notes": "Mike lists the round: 'a G&T for Raquel, a Tequila Slammer for Rodney, orange juice for Cassandra.'",
       "show_on_wheel": true,
-      "type": "classic_cocktail"
+      "type": "classic_cocktail",
+      "recipe": [
+        "glass: shot glass",
+        "50ml tequila",
+        "top with champagne or lemonade",
+        "slam glass on bar",
+        "down in one"
+      ]
     },
     {
       "id": "mackeson",
@@ -756,7 +1042,11 @@
       ],
       "notes": "Grandad's substitute: 'they'd sold right out of Pina Coladas Del, so I got you a Mackeson instead.' A dark milk stout instead of a cocktail. Del accepts it without complaint.",
       "show_on_wheel": true,
-      "type": "beer"
+      "type": "beer",
+      "recipe": [
+        "one bottle of Mackeson milk stout",
+        "acceptable substitute when they've sold out of Pina Coladas"
+      ]
     }
   ],
   "candidates": [
