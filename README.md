@@ -10,9 +10,9 @@ There are dozens of "Del Boy drinks" lists online, but most of them are wrong. T
 
 This project answers one question: *what did Del actually drink?*
 
-To find out, we read every script from all 64 episodes, cross-referenced against DVD subtitles, and verified against broadcast footage.
+To find out, we read every script from all 64 episodes, cross-referenced against DVD subtitles, and verified against broadcast footage. We focused on the ridiculous, the exotic, and the downright wrong — not every pint of lager or gin and tonic ordered in the background.
 
-The result is **44 confirmed drinks** — the most complete and accurate list anywhere online.
+The result is **44 confirmed drinks** — the most complete and accurate list of Del Boy's bizarre cocktail orders anywhere online.
 
 ## Features
 
