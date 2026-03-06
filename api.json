@@ -137,7 +137,7 @@
       "name": "Harvey Wallbanger",
       "type": "classic_cocktail",
       "ordered_by": "Del",
-      "location": "unknown",
+      "location": "nags_head",
       "episodes": [
         {
           "ref": "SPECIAL",
@@ -736,7 +736,7 @@
       "name": "Non-Alcoholic Lager Top",
       "type": "beer",
       "ordered_by": "Del (for Rodney)",
-      "location": "unknown",
+      "location": "nags_head",
       "episodes": [
         {
           "ref": "S07E01",
