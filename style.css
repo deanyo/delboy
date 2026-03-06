@@ -262,6 +262,12 @@ body::before {
 .about-link { color: var(--accent); text-decoration: none; }
 .about-link:hover { text-decoration: underline; }
 
+a.about-list-link {
+  text-decoration: none; display: block; cursor: pointer;
+  transition: border-color 0.15s;
+}
+a.about-list-link:hover { border-color: var(--accent); }
+
 /* Timeline */
 #timeline { max-width: 640px; margin: 0 auto; position: relative; padding-left: 40px; }
 #timeline::before {
