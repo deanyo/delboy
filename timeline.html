@@ -113,10 +113,10 @@
             <div class="tl-drinks">
               ${drinks.map(d => {
                 const ep = d.episodes.find(e => getYear(e) === year);
-                return `<div class="tl-drink">
+                return `<a href="index.html?q=${encodeURIComponent(d.drink)}" class="tl-drink">
                   <span class="tl-name">${d.drink}</span>
                   <span class="tl-ep">${ep ? ep.title : ''}</span>
-                </div>`;
+                </a>`;
               }).join('')}
             </div>
           </div>`;
