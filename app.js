@@ -187,6 +187,11 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
+    const searchInput = document.getElementById('search');
+    if (searchInput && btn.dataset.filter === 'all') {
+      searchInput.value = '';
+      currentSearch = '';
+    }
     renderDrinks(btn.dataset.filter);
   });
 });
