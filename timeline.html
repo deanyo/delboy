@@ -52,9 +52,35 @@
       'Sleepless in Peckham': 2003
     };
 
+    const epOrder = {
+      'Big Brother':1,'Go West Young Man':2,'Cash and Curry':3,'The Second Time Around':4,
+      'A Slow Bus to Chingford':5,'The Russians Are Coming':6,'Christmas Crackers':7,
+      'The Long Legs of the Law':8,'Ashes to Ashes':9,'A Losing Streak':10,
+      'No Greater Love':11,'The Yellow Peril':12,'It Never Rains':13,'A Touch of Glass':14,
+      'Diamonds Are for Heather':15,'Homesick':16,'Healthy Competition':17,'Friday the 14th':18,
+      'Yesterday Never Comes':19,'May the Force Be with You':20,'Wanted':21,"Who's a Pretty Boy?":22,
+      'Thicker than Water':23,'Happy Returns':24,'Strained Relations':25,'Hole in One':26,
+      "It's Only Rock and Roll":27,'Sleeping Dogs Lie':28,'Watching the Girls Go By':29,
+      'As One Door Closes':30,'To Hull and Back':31,'From Prussia with Love':32,
+      'The Miracle of Peckham':33,'The Longest Night':34,'Tea for Three':35,'Video Nasty':36,
+      "Who Wants to Be a Millionaire?":37,'A Royal Flush':38,"The Frog's Legacy":39,
+      'Dates':40,'Yuppy Love':41,'Danger UXD':42,'Chain Gang':43,
+      'The Unlucky Winner Is...':44,'Sickness and Wealth':45,'Little Problems':46,
+      "The Jolly Boys' Outing":47,'Rodney Come Home':48,"The Sky's the Limit":49,
+      'The Chance of a Lunchtime':50,'Stage Fright':51,"The Class of '62":52,
+      "He Ain't Heavy, He's My Uncle":53,'Three Men, a Woman and a Baby':54,
+      'Miami Twice':55,'Mother Nature\'s Son':57,'Fatal Extraction':58,
+      'Heroes and Villains':59,'Modern Men':60,'Time on Our Hands':61,
+      'If They Could See Us Now':62,'Strangers on the Shore':63,'Sleepless in Peckham':64
+    };
+
     function getYear(ep) {
       if (ep.ref && ep.ref !== 'SPECIAL') return yearMap[ep.ref.slice(0, 3)] || null;
       return specialYears[ep.title] || null;
+    }
+
+    function getOrder(ep) {
+      return epOrder[ep.title] || 999;
     }
 
     fetch('drinks.json').then(r => r.json()).then(data => {
@@ -63,11 +89,14 @@
         const years = new Set();
         for (const ep of d.episodes || []) {
           const y = getYear(ep);
-          if (y) years.add(y);
+          if (y) {
+            years.add(y);
+            d._order = Math.min(d._order || 999, getOrder(ep));
+          }
         }
         for (const y of years) {
           if (!byYear[y]) byYear[y] = [];
-          byYear[y].push(d);
+          byYear[y].push({...d, _yearOrder: d._order});
         }
       }
 
@@ -75,7 +104,7 @@
       const timeline = document.getElementById('timeline');
 
       timeline.innerHTML = sortedYears.map(year => {
-        const drinks = byYear[year];
+        const drinks = byYear[year].sort((a, b) => a._yearOrder - b._yearOrder);
         const era = year <= 1983 ? 'early' : year <= 1989 ? 'mid' : year <= 1996 ? 'late' : 'final';
         return `
           <div class="tl-year">
