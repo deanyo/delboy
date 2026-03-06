@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1621">
+  <title>del boy's drinks - about</title>
+  <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'><rect width='256' height='256' fill='%231a1621'/><text x='128' y='155' text-anchor='middle' font-family='JetBrains%20Mono,monospace' font-size='96' font-weight='600' fill='%23b3f4f3'>🍸</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <h1>del boy's drinks</h1>
+      <p class="subtitle">about this project</p>
+      <nav class="nav-tabs">
+        <a href="index.html" class="nav-btn">📋 list</a>
+        <a href="wheel.html" class="nav-btn">🎰 spin</a>
+        <a href="generator.html" class="nav-btn">🧪 generator</a>
+        <a href="about.html" class="nav-btn active">📖 about</a>
+        <a href="api.json" class="nav-btn">🔌 api</a>
+      </nav>
+    </header>
+
+    <div class="about-content">
+      <div class="about-section">
+        <div class="about-heading">why does this exist?</div>
+        <p>there are dozens of "del boy drinks" lists online, but most of them are wrong. they mix up episodes, include drinks that were never actually ordered, and repeat fan myths as fact.</p>
+        <p>this project started as a simple question: <em>what did del actually drink?</em> to answer it properly, we read every script from all 64 episodes of only fools and horses (1981-2003), searched for every drink mention, and cross-referenced against the official episode list.</p>
+        <p>the result is <em>44 confirmed drinks — the most complete and accurate list anywhere online.</em></p>
+      </div>
+
+      <div class="about-section">
+        <div class="about-heading">how we verified entries</div>
+        <p>every confirmed drink was found using this priority system:</p>
+        <div class="about-list">
+          <div class="about-list-item"><span class="badge season">1</span> broadcast episode dialogue (what was actually said on screen)</div>
+          <div class="about-list-item"><span class="badge season">2</span> dvd subtitles</div>
+          <div class="about-list-item"><span class="badge season">3</span> original shooting scripts (66 files covering all episodes)</div>
+          <div class="about-list-item"><span class="badge season">4</span> fan transcripts (lowest priority, used only for cross-reference)</div>
+        </div>
+        <p>we searched every script for drink-related keywords, read the surrounding context to confirm it was an actual order (not just a passing mention), and matched each drink to its correct episode using the official episode masterlist.</p>
+      </div>
+
+      <div class="about-section">
+        <div class="about-heading">why scripts sometimes differ from broadcast</div>
+        <p>only fools and horses used a live studio audience for interior scenes (the flat, the nag's head, sid's café) while location scenes were pre-filmed without an audience. this means:</p>
+        <div class="about-list">
+          <div class="about-list-item"><span class="badge">ad-libs</span> david jason occasionally improvised drink orders for bigger laughs from the studio audience. the script for heroes and villains says "manhattan" but on screen del orders a "baileys and cherryade".</div>
+          <div class="about-list-item"><span class="badge">rehearsal changes</span> jokes were tweaked after rehearsal if a different line got a better reaction from the audience.</div>
+          <div class="about-list-item"><span class="badge">prop availability</span> sometimes drinks changed because of what bottles the prop department had on hand.</div>
+          <div class="about-list-item"><span class="badge">script versions</span> most scripts available online are early shooting drafts or fan transcriptions, not the final broadcast dialogue.</div>
+        </div>
+        <p>where we found a difference, <em>the broadcast version takes priority.</em> we note the script variant in our data.</p>
+      </div>
+
+      <div class="about-section">
+        <div class="about-heading">what counts as confirmed vs candidate</div>
+        <div class="about-list">
+          <div class="about-list-item"><span class="badge season">confirmed</span> found in at least one script or verified from broadcast footage, with a specific episode reference. currently 43 drinks.</div>
+          <div class="about-list-item"><span class="badge unconfirmed">candidate</span> reported by fans or appears in online lists, but not found in any of our 66 script files or broadcast verification. currently 2 drinks (harvey wallbanger and creme de menthe and tizer).</div>
+        </div>
+        <p>several drinks that i believed to be fan myths <em>turned out to be real</em> once we checked the scripts — including baileys and cherryade (ad-libbed), irish coffee (strangers on the shore), and brandy and andrews (sickness and wealth).</p>
+      </div>
+
+      <div class="about-section">
+        <div class="about-heading">the data</div>
+        <p>the full dataset is available as machine-readable json:</p>
+        <div class="about-list">
+          <div class="about-list-item"><a href="api.json" class="about-link">api.json</a> — complete dataset with drink types, locations, episode references, methodology, and schema.org markup</div>
+          <div class="about-list-item"><a href="drinks.json" class="about-link">drinks.json</a> — the drink list used by this site</div>
+        </div>
+        <p>if you spot an error or know of a drink we've missed, get in touch: <a href="mailto:delboy@dnyo.co.uk" class="about-link">delboy@dnyo.co.uk</a></p>
+      </div>
+
+      <div class="about-section">
+        <div class="about-heading">stats</div>
+        <div class="about-list">
+          <div class="about-list-item"><span class="badge season">44</span> confirmed drinks</div>
+          <div class="about-list-item"><span class="badge season">64</span> episodes searched</div>
+          <div class="about-list-item"><span class="badge season">69</span> script files analysed</div>
+          <div class="about-list-item"><span class="badge season">6</span> del boy inventions</div>
+          <div class="about-list-item"><span class="badge season">15</span> spirit + wrong soft drink combos</div>
+          <div class="about-list-item"><span class="badge season">23</span> drinks ordered at the nag's head</div>
+          <div class="about-list-item"><span class="badge season">1</span> drink ordered on a cross-channel ferry (four irish coffees)</div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <a href="https://github.com/deanyo/dellboy" target="_blank">src</a> · bonnet de douche
+    </footer>
+  </div>
+</body>
+</html>
