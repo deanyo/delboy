@@ -28,7 +28,11 @@ const spirits = [
   'Courvoisier', 'Hennessy', 'Baileys', 'Midori',
   'Frangelico', 'Chambord', 'Crème de Menthe',
   'Crème de Cassis', 'Parfait Amour', 'Strega',
-  'Limoncello', 'Disaronno', 'Archers'
+  'Limoncello', 'Disaronno', 'Archers',
+  'Cinzano', 'Southern Comfort', 'Taboo', 'Pimms',
+  'Ouzo', 'Warninks Advocaat', 'Stones Ginger Wine',
+  'Babycham', 'Woodpecker', 'Lambrini', 'Blue Nun',
+  'Mateus Rosé', 'Emva Cream', 'Thunderbird', 'Hooch'
 ];
 
 const wrongMixers = [
@@ -40,7 +44,9 @@ const wrongMixers = [
   'Barley Water', 'Horlicks', 'Ovaltine', 'Bovril',
   'Ginger Beer', 'Cream of Soda', 'Bitter Lemon',
   'American Cream Soda', 'Bubblegum Soda', 'Slush Puppie',
-  'Blackcurrant Cordial', 'Ribena', 'Tango'
+  'Blackcurrant Cordial', 'Ribena', 'Tango',
+  'Britvic Orange', 'Canada Dry', 'Schweppes Lemonade',
+  'Corona Pop', 'Cresta', 'Quattro', 'Tab Clear', 'Kia-Ora'
 ];
 
 const wrongJuices = [
