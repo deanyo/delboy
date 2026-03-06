@@ -59,6 +59,38 @@
       "type": "del_invention"
     },
     {
+      "id": "harvey-wallbanger",
+      "drink": "Harvey Wallbanger",
+      "status": "confirmed",
+      "type": "classic_cocktail",
+      "ordered_by": "Del",
+      "episodes": [
+        {
+          "ref": "SPECIAL",
+          "title": "Modern Men"
+        }
+      ],
+      "notes": "DVD subtitles: 'We've got a Harvey Wall Banger for me, that's a cognac for Boycie, vodka and lime for Marlene, Cubre Libre for Denzil...' Script says Singapore Sling but the broadcast has Harvey Wallbanger.",
+      "script_variant": "Singapore Sling",
+      "show_on_wheel": true
+    },
+    {
+      "id": "baileys-and-cherryade",
+      "drink": "Baileys and Cherryade",
+      "status": "confirmed",
+      "ordered_by": "Del",
+      "episodes": [
+        {
+          "ref": "SPECIAL",
+          "title": "Heroes and Villains"
+        }
+      ],
+      "notes": "Del orders at the Nag's Head. Script says Manhattan but the broadcast has Baileys and Cherryade - David Jason ad-libbed the drink order.",
+      "show_on_wheel": true,
+      "type": "del_invention",
+      "script_variant": "Manhattan"
+    },
+    {
       "id": "pina-colada",
       "drink": "Pina Colada",
       "status": "confirmed",
@@ -113,22 +145,6 @@
       "notes": "After a heavy night: 'Juan. Can I have a pina colada with ice and Alka Seltzer?'",
       "show_on_wheel": true,
       "type": "del_invention"
-    },
-    {
-      "id": "baileys-and-cherryade",
-      "drink": "Baileys and Cherryade",
-      "status": "confirmed",
-      "ordered_by": "Del",
-      "episodes": [
-        {
-          "ref": "SPECIAL",
-          "title": "Heroes and Villains"
-        }
-      ],
-      "notes": "Del orders at the Nag's Head. Script says Manhattan but the broadcast has Baileys and Cherryade - David Jason ad-libbed the drink order.",
-      "show_on_wheel": true,
-      "type": "del_invention",
-      "script_variant": "Manhattan"
     },
     {
       "id": "malibu-and-cherryade",
@@ -238,6 +254,21 @@
       "type": "wine"
     },
     {
+      "id": "remy-martin-and-cream-soda",
+      "drink": "Rémy Martin with Cream Soda",
+      "status": "confirmed",
+      "ordered_by": "Del",
+      "episodes": [
+        {
+          "ref": "SPECIAL",
+          "title": "Christmas Crackers"
+        }
+      ],
+      "notes": "'Oi John. Giss a Remi Martin with cream soda and lots of ice, and 'arf of lager.'",
+      "show_on_wheel": true,
+      "type": "spirit_and_soft_drink"
+    },
+    {
       "id": "bacardi-and-russian",
       "drink": "Bacardi and Russian",
       "status": "confirmed",
@@ -283,21 +314,6 @@
       "type": "spirit_and_soft_drink"
     },
     {
-      "id": "half-a-lager",
-      "drink": "Half a Lager",
-      "status": "confirmed",
-      "ordered_by": "Rodney",
-      "episodes": [
-        {
-          "ref": "S01E02",
-          "title": "Go West Young Man"
-        }
-      ],
-      "notes": "Rodney's order after Del's elaborate Caribbean Stallion. The waiter mocks him: 'Half a lager... Reg Varney drank one of them in Holiday on the Buses!' - comparing Rodney to a naff 70s sitcom character.",
-      "show_on_wheel": true,
-      "type": "beer"
-    },
-    {
       "id": "brandy-and-andrews",
       "drink": "Brandy and Andrews",
       "status": "confirmed",
@@ -311,6 +327,21 @@
       "notes": "'Del now stirs a spoonful of Andrews into his brandy.' Peak Del - medicating and drinking at the same time.",
       "show_on_wheel": true,
       "type": "remedy"
+    },
+    {
+      "id": "irish-coffee",
+      "drink": "Irish Coffee",
+      "status": "confirmed",
+      "ordered_by": "Del",
+      "episodes": [
+        {
+          "ref": "SPECIAL",
+          "title": "Strangers on the Shore"
+        }
+      ],
+      "notes": "'Del had a mutton Madras and four Irish coffees.' Four of them. Classic Del.",
+      "show_on_wheel": true,
+      "type": "classic_cocktail"
     },
     {
       "id": "rum-and-black",
@@ -385,21 +416,6 @@
       "type": "wine"
     },
     {
-      "id": "irish-coffee",
-      "drink": "Irish Coffee",
-      "status": "confirmed",
-      "ordered_by": "Del",
-      "episodes": [
-        {
-          "ref": "SPECIAL",
-          "title": "Strangers on the Shore"
-        }
-      ],
-      "notes": "'Del had a mutton Madras and four Irish coffees.' Four of them. Classic Del.",
-      "show_on_wheel": true,
-      "type": "classic_cocktail"
-    },
-    {
       "id": "peach-daiquiri",
       "drink": "Peach Daiquiri",
       "status": "confirmed",
@@ -430,6 +446,42 @@
       "type": "classic_cocktail"
     },
     {
+      "id": "half-a-lager",
+      "drink": "Half a Lager",
+      "status": "confirmed",
+      "ordered_by": "Rodney",
+      "episodes": [
+        {
+          "ref": "S01E02",
+          "title": "Go West Young Man"
+        }
+      ],
+      "notes": "Rodney's order after Del's elaborate Caribbean Stallion. The waiter mocks him: 'Half a lager... Reg Varney drank one of them in Holiday on the Buses!' - comparing Rodney to a naff 70s sitcom character.",
+      "show_on_wheel": true,
+      "type": "beer"
+    },
+    {
+      "id": "non-alcoholic-lager-top",
+      "drink": "Non-Alcoholic Lager Top",
+      "status": "confirmed",
+      "type": "beer",
+      "ordered_by": "Del (for Rodney)",
+      "episodes": [
+        {
+          "ref": "S07E01",
+          "title": "The Sky's the Limit",
+          "note": "'Give us a non-alcoholic lager for the stud over there'"
+        },
+        {
+          "ref": "S07E03",
+          "title": "Stage Fright",
+          "note": "'Give us a non alcoholic lager top, and a special for me'"
+        }
+      ],
+      "notes": "Del's go-to insult order for Rodney. Ordered at least twice at the Nag's Head while Del gets something exotic.",
+      "show_on_wheel": true
+    },
+    {
       "id": "blackcurrant-and-pernod",
       "drink": "Blackcurrant and Pernod",
       "status": "confirmed",
@@ -441,21 +493,6 @@
         }
       ],
       "notes": "Ordered at the Nag's Head.",
-      "show_on_wheel": true,
-      "type": "spirit_and_soft_drink"
-    },
-    {
-      "id": "remy-martin-and-cream-soda",
-      "drink": "Rémy Martin with Cream Soda",
-      "status": "confirmed",
-      "ordered_by": "Del",
-      "episodes": [
-        {
-          "ref": "SPECIAL",
-          "title": "Christmas Crackers"
-        }
-      ],
-      "notes": "'Oi John. Giss a Remi Martin with cream soda and lots of ice, and 'arf of lager.'",
       "show_on_wheel": true,
       "type": "spirit_and_soft_drink"
     },
@@ -720,43 +757,6 @@
       "notes": "Grandad's substitute: 'they'd sold right out of Pina Coladas Del, so I got you a Mackeson instead.' A dark milk stout instead of a cocktail. Del accepts it without complaint.",
       "show_on_wheel": true,
       "type": "beer"
-    },
-    {
-      "id": "harvey-wallbanger",
-      "drink": "Harvey Wallbanger",
-      "status": "confirmed",
-      "type": "classic_cocktail",
-      "ordered_by": "Del",
-      "episodes": [
-        {
-          "ref": "SPECIAL",
-          "title": "Modern Men"
-        }
-      ],
-      "notes": "DVD subtitles: 'We've got a Harvey Wall Banger for me, that's a cognac for Boycie, vodka and lime for Marlene, Cubre Libre for Denzil...' Script says Singapore Sling but the broadcast has Harvey Wallbanger.",
-      "script_variant": "Singapore Sling",
-      "show_on_wheel": true
-    },
-    {
-      "id": "non-alcoholic-lager-top",
-      "drink": "Non-Alcoholic Lager Top",
-      "status": "confirmed",
-      "type": "beer",
-      "ordered_by": "Del (for Rodney)",
-      "episodes": [
-        {
-          "ref": "S07E01",
-          "title": "The Sky's the Limit",
-          "note": "'Give us a non-alcoholic lager for the stud over there'"
-        },
-        {
-          "ref": "S07E03",
-          "title": "Stage Fright",
-          "note": "'Give us a non alcoholic lager top, and a special for me'"
-        }
-      ],
-      "notes": "Del's go-to insult order for Rodney. Ordered at least twice at the Nag's Head while Del gets something exotic.",
-      "show_on_wheel": true
     }
   ],
   "candidates": [
