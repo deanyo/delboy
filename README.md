@@ -32,7 +32,7 @@ The result is **44 confirmed drinks** — the most complete and accurate list an
 ### Key discoveries
 
 - **Baileys and Cherryade** — script says Manhattan, but David Jason ad-libbed it on camera (Heroes and Villains)
-- **Harvey Wallbanger** — long considered a fan myth, confirmed via DVD subtitles (Modern Men)
+- **Harvey Wallbanger** — I was convinced this was a fan hallucination. I was wrong — confirmed via DVD subtitles (Modern Men)
 - **Irish Coffee** — "Del had a mutton Madras and four Irish coffees" (Strangers on the Shore)
 - **Brandy and Andrews** — Del stirs liver salts into his brandy (Sickness and Wealth)
 
