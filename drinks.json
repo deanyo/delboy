@@ -736,6 +736,27 @@
       "notes": "DVD subtitles: 'We've got a Harvey Wall Banger for me, that's a cognac for Boycie, vodka and lime for Marlene, Cubre Libre for Denzil...' Script says Singapore Sling but the broadcast has Harvey Wallbanger.",
       "script_variant": "Singapore Sling",
       "show_on_wheel": true
+    },
+    {
+      "id": "non-alcoholic-lager-top",
+      "drink": "Non-Alcoholic Lager Top",
+      "status": "confirmed",
+      "type": "beer",
+      "ordered_by": "Del (for Rodney)",
+      "episodes": [
+        {
+          "ref": "S07E01",
+          "title": "The Sky's the Limit",
+          "note": "'Give us a non-alcoholic lager for the stud over there'"
+        },
+        {
+          "ref": "S07E03",
+          "title": "Stage Fright",
+          "note": "'Give us a non alcoholic lager top, and a special for me'"
+        }
+      ],
+      "notes": "Del's go-to insult order for Rodney. Ordered at least twice at the Nag's Head while Del gets something exotic.",
+      "show_on_wheel": true
     }
   ],
   "candidates": [
