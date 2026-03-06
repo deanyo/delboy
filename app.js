@@ -224,4 +224,12 @@ if (searchInput) {
     searchInput.value = params.get('q');
     currentSearch = params.get('q').toLowerCase();
   }
+  if (params.get('filter')) {
+    const filterBtn = document.querySelector(`.filter-btn[data-filter="${params.get('filter')}"]`);
+    if (filterBtn) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      filterBtn.classList.add('active');
+      currentFilter = params.get('filter');
+    }
+  }
 }
