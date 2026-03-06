@@ -247,6 +247,10 @@ body::before {
   color: var(--accent); border-color: var(--accent); margin-right: 4px;
 }
 
+.about-list-item .badge.unconfirmed {
+  color: var(--warn); border-color: var(--warn);
+}
+
 .about-link { color: var(--accent); text-decoration: none; }
 .about-link:hover { text-decoration: underline; }
 
