@@ -14,7 +14,7 @@ This project answers one question: *what did Del actually drink?*
 
 To find out, we read every script from all 64 episodes, cross-referenced against DVD subtitles, and verified against broadcast footage. We focused on the ridiculous, the exotic, and the downright wrong — not every pint of lager or gin and tonic ordered in the background.
 
-The result is **44 confirmed drinks** — the most complete and accurate list of Del Boy's bizarre cocktail orders anywhere online.
+The result is **45 confirmed drinks** — the most complete and accurate list of Del Boy's bizarre cocktail orders anywhere online.
 
 ## Features
 
@@ -26,7 +26,7 @@ The result is **44 confirmed drinks** — the most complete and accurate list of
 
 ## The Data
 
-- **44 confirmed drinks** verified against scripts and broadcast
+- **45 confirmed drinks** verified against scripts and broadcast
 - **69 script files** analysed
 - **31 DVD subtitle tracks** cross-referenced
 - **1 open bounty** — Creme de Menthe and Tizer (if you can prove it exists, [email us](mailto:delboy@dnyo.co.uk))
