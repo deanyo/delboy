@@ -1,5 +1,7 @@
 # 🍸 Del Boy's Drinks
 
+[![pages-build-deployment](https://github.com/deanyo/delboy/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/deanyo/delboy/actions/workflows/pages/pages-build-deployment)
+
 **The definitive list of every drink ordered, mentioned or served in Only Fools and Horses (1981-2003).**
 
 🔗 **[dnyo.co.uk/delboy](https://dnyo.co.uk/delboy/)**
