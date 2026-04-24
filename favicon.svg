@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>Del Boy Drinks favicon</title>
+  <rect width="64" height="64" rx="14" fill="#1a1621"/>
+  <path d="M16 18h32L34 32v8h8v5H22v-5h8v-8L16 18Z" fill="#b3f4f3"/>
+  <path d="M22 22h20l-10 8-10-8Z" fill="#1a1621" opacity=".28"/>
+  <circle cx="45.5" cy="18.5" r="4.5" fill="#f1a241"/>
+  <circle cx="45.5" cy="18.5" r="2" fill="#1a1621" opacity=".35"/>
+  <path d="M35 18c3.5 0 5.5 0 8 1.5" fill="none" stroke="#f1a241" stroke-linecap="round" stroke-width="2.4"/>
+</svg>
